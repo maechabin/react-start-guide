@@ -1,0 +1,35 @@
+1. node.jsの導入
+
+2. projectフォルダの作成
+  $mkdir react_project
+
+3. npmを使えるようにする
+  $npm init
+  package.jsonが作られる
+
+4. Reactのインストール
+
+5. babelの導入
+
+6. app.jsの作成
+  mkdir src
+  touch app.js
+
+7. app.jsにreactを読み込む
+  var React = require('react');
+  var ReactDOM = require('react-dom');
+
+8. Webアプリの本体となるHTMLファイルを準備
+  touch index.html
+
+9. コンポーネントの作成
+  コンポーネントは頭文字が大文字
+  このポーネントには必ずrender()メソッドを設ける
+  DomはJSXで書く
+
+10. ReactDOM.render();
+
+11. gulpの導入
+
+12. package.jsonに記入
+  npm script

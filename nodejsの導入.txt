@@ -1,0 +1,26 @@
+Node.jsのインストール
+
+Homebrew経由でnodeが入っていたら事前にアンインストール
+$ brew uninstall node
+
+nodebrewをインストール
+$ brew install nodebrew
+
+パスを通す
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+
+変更内容を即時反映
+source ~/.bashrc
+
+確認
+nodebrew help
+
+node.jsのstable版をインストール
+nodebrew install-binary stable
+
+
+
+Windowsの場合
+・直接Node.jsの公式サイトからインストール
+・Nodistを使う
+　https://github.com/marcelklehr/nodist

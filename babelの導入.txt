@@ -1,0 +1,21 @@
+babelifyのインストール
+$ npm install --save-dev babelify
+
+.babelrcファイルの作成
+touch .babelrc
+
+babel-preset-reactのインストール
+npm install --save-dev babel-preset-react
+
+babel-preset-es2015のインストール（ES2015を使う場合）
+npm install --save-dev babel-preset-es2015
+
+.babelrcに書き込む
+{
+  "presets": ["react"]
+}
+
+※ES2015を使う場合
+{
+  "presets": ["react", "es2015"]
+}

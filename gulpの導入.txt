@@ -1,0 +1,20 @@
+gulpをシステムにインストール
+$ npm install -g gulp
+
+プロジェクトにgulpをインストール
+$ npm install --save-dev gulp
+
+browserifyをインストール
+$ npm install --save-dev browserify
+
+vinyl-source-streamをインストール
+$ npm install --save-dev vinyl-source-stream
+
+loose-envifyのインストール
+$ npm install --save-dev envify
+
+uglifyifyのイストール
+$ npm install --save-dev uglifyify
+
+gulpfile.jsの作成
+touch gulpfile.js
